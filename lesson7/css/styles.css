@@ -1,0 +1,249 @@
+header {
+    background-color: #EEEFF1;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 500px;
+    margin: 0 0;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: 500;
+    margin-block-end: 0;
+    margin-block-start: 0;
+}
+
+nav {
+    /* margin-left: 399px; */
+    margin-left: 200px;
+    padding-top: 79px;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+
+}
+
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+ul {
+    padding-inline-start: 0px;
+    margin-block-end: 0px;
+    margin-block-start: 0px;
+}
+
+
+.menu li {
+    display: inline;
+    text-transform: uppercase;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.1em;
+    margin-right: 42px;
+
+}
+
+.active#linkcolor {
+    color: #34547A;
+    font-weight: 500;
+}
+
+
+.name {
+    font-family: Roboto;
+    /* margin-left: 399px; */
+    margin-left: 200px;
+    padding-top: 162px;
+}
+
+
+.name>p {
+    width: 540px;
+    height: 67px;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    line-height: 26px;
+    padding-top: 60px;
+    margin-block-end: 0px;
+    margin-block-start: 0px;
+}
+
+button {
+    background-color: #34547A;
+    border: none;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    padding-top: 19px;
+    padding-bottom: 20px;
+    padding-left: 41px;
+    padding-right: 41px;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin-top: 65px;
+    margin-bottom: 141px
+}
+
+main {
+    background-color: white;
+    font-family: Roboto;
+    padding-top: 112px;
+}
+
+main>p {
+    width: 540px;
+    height: 67px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #727272;
+    /* margin-left: 690px; */
+    padding-bottom: 100px;
+    margin-bottom: 0;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about__heading {
+    width: 403px;
+    height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    /* margin-left: 758px; */
+    /* если я центрую ОБО МНЕ по центру страницы,
+    то тогда нужно к чему-то привязать отсуп блока выше к левому краю. а из дизайна не понятно к чему,
+    кроме как к размеру, который задан. аналогичная проблема, если центровать картинки проэктов и видео */
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+div.project {
+    background-color: #34547A;
+    height: 250px;
+    margin-top: 1px;
+    width: 100%;
+}
+
+.images {
+    padding-top: 100px;
+    width: 1125px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img_1 {
+    /* margin-left: 409px; */
+}
+
+.img_2 {
+    margin-left: 45px;
+}
+
+.img_3 {
+    margin-left: 49px;
+}
+
+.img_4 {
+    margin-left: 49px;
+}
+
+.img_5 {
+    margin-left: 49px;
+}
+
+.img_6 {
+    margin-left: 49px;
+}
+
+.work {
+    text-align: center;
+    font-family: Roboto;
+    line-height: 37.5px;
+    padding-top: 100px;
+}
+
+section.work>p {
+    width: 540px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #727272;
+    /* margin-left: 690px; */
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 50px;
+    margin-bottom: 0;
+}
+
+.work__heading {
+    width: 403px;
+    height: 30px;
+    /* margin-left: 758px; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.video {
+    margin-left: auto;
+    margin-right: auto;
+    /* margin-left: 405px; */
+    width: 1100px;
+    margin-bottom: 100px;
+}
+
+footer {
+    background-color: #34547A;
+    font-family: Roboto;
+    font-weight: 400;
+    color: white;
+}
+
+h3 {
+    font-size: 21px;
+    font-weight: 500;
+    text-transform: capitalize;
+    /* margin-left: 406px; */
+    margin-left: 170px;
+    padding-top: 50px;
+    margin-block-start: 0;
+    margin-bottom: 0;
+}
+
+footer>p {
+    /* margin-left: 406px; */
+    margin-left: 170px;
+    padding-top: 20px;
+    margin-block-start: 0;
+    margin-bottom: 0;
+    padding-bottom: 50px;
+}
