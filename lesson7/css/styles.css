@@ -2,6 +2,12 @@ header {
     background-color: #EEEFF1;
 }
 
+.header__center {
+    width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 h1 {
     font-size: 48px;
     font-weight: 500px;
@@ -16,8 +22,6 @@ h2 {
 }
 
 nav {
-    /* margin-left: 399px; */
-    margin-left: 200px;
     padding-top: 79px;
 }
 
@@ -38,6 +42,7 @@ a:hover {
 
 a:active {
     text-decoration: underline;
+    color: #34547A;
 }
 
 ul {
@@ -45,7 +50,6 @@ ul {
     margin-block-end: 0px;
     margin-block-start: 0px;
 }
-
 
 .menu li {
     display: inline;
@@ -55,24 +59,14 @@ ul {
     font-size: 16px;
     letter-spacing: 0.1em;
     margin-right: 42px;
-
 }
-
-.active#linkcolor {
-    color: #34547A;
-    font-weight: 500;
-}
-
 
 .name {
     font-family: Roboto;
-    /* margin-left: 399px; */
-    margin-left: 200px;
     padding-top: 162px;
 }
 
-
-.name>p {
+.name__text {
     width: 540px;
     height: 67px;
     font-family: Roboto;
@@ -105,15 +99,14 @@ button {
     margin-bottom: 141px
 }
 
-main {
+.about__me {
     background-color: white;
     font-family: Roboto;
     padding-top: 112px;
 }
 
-main>p {
+.about__me>p {
     width: 540px;
-    height: 67px;
     font-family: 'Roboto';
     font-weight: 400;
     font-size: 16px;
@@ -121,7 +114,6 @@ main>p {
     text-align: center;
     letter-spacing: 0.05em;
     color: #727272;
-    /* margin-left: 690px; */
     padding-bottom: 100px;
     margin-bottom: 0;
     margin-top: 0;
@@ -131,54 +123,65 @@ main>p {
 
 .about__heading {
     width: 403px;
-    height: 30px;
     margin-left: auto;
     margin-right: auto;
-    /* margin-left: 758px; */
-    /* если я центрую ОБО МНЕ по центру страницы,
-    то тогда нужно к чему-то привязать отсуп блока выше к левому краю. а из дизайна не понятно к чему,
-    кроме как к размеру, который задан. аналогичная проблема, если центровать картинки проэктов и видео */
     margin-bottom: 50px;
     text-align: center;
 }
 
-div.project {
+.project {
     background-color: #34547A;
-    height: 250px;
-    margin-top: 1px;
-    width: 100%;
+    font-family: 'Roboto';
+    color: white;
 }
 
-.images {
-    padding-top: 100px;
-    width: 1125px;
-    margin-left: auto;
-    margin-right: auto;
+.project__list li{
+    display: inline-block;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
-.img_1 {
-    /* margin-left: 409px; */
+.project__list {
+    width: 1200px;
+margin-left: auto;
+margin-right: auto;
 }
 
-.img_2 {
-    margin-left: 45px;
+.project__number {
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+    margin-block-start: 0;
+    margin-block-end: 0;
 }
 
-.img_3 {
-    margin-left: 49px;
+.project__title {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin-block-start: 0;
+    margin-block-end: 0;
 }
 
-.img_4 {
-    margin-left: 49px;
+.project__block {
+    width: 150px;
+    height: 50px;
+   margin-right: 49px;
 }
 
-.img_5 {
-    margin-left: 49px;
+.project__block.last {
+margin-right: 0;    
 }
 
-.img_6 {
-    margin-left: 49px;
+img {
+    margin-right: 20px;
 }
+
+.project__block>div {
+    display: inline-block;
+  
+}
+
 
 .work {
     text-align: center;
@@ -196,7 +199,6 @@ section.work>p {
     text-align: center;
     letter-spacing: 0.05em;
     color: #727272;
-    /* margin-left: 690px; */
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 50px;
@@ -206,7 +208,6 @@ section.work>p {
 .work__heading {
     width: 403px;
     height: 30px;
-    /* margin-left: 758px; */
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 50px;
@@ -216,7 +217,6 @@ section.work>p {
 .video {
     margin-left: auto;
     margin-right: auto;
-    /* margin-left: 405px; */
     width: 1100px;
     margin-bottom: 100px;
 }
@@ -228,22 +228,25 @@ footer {
     color: white;
 }
 
+.footer_content {
+    width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
 h3 {
     font-size: 21px;
     font-weight: 500;
     text-transform: capitalize;
-    /* margin-left: 406px; */
-    margin-left: 170px;
     padding-top: 50px;
     margin-block-start: 0;
     margin-bottom: 0;
 }
 
-footer>p {
-    /* margin-left: 406px; */
-    margin-left: 170px;
+.footer_content>p {
     padding-top: 20px;
     margin-block-start: 0;
-    margin-bottom: 0;
+    margin-block-end: 0;
     padding-bottom: 50px;
 }
