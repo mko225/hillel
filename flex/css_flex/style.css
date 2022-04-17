@@ -1,0 +1,104 @@
+.wrap {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  padding: 10px 10px;
+  margin-bottom: 50px;
+  width: 600px;
+  border: 1px solid darkolivegreen;
+  text-align: center;
+  color: darkolivegreen;
+}
+
+/* boxes */
+.big {
+  width: 100px;
+  height: 100px;
+  border: 1px solid lightseagreen;
+}
+
+.small {
+  width: 50px;
+  height: 50px;
+  border: 1px solid darkcyan;
+}
+
+.wide {
+  width: 150px;
+  height: 40px;
+  border: 1px solid darkblue;
+}
+
+/* block one */
+.flex-container__one {
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/* block two */
+.flex-container__two {
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.flex-container__two__block {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 250px;
+}
+
+/* block three */
+.flex-container__three {
+  /* flex-direction: row;
+    по-идее row здесь нужен, чтобы в ряд распределить два внутренних флекс блока,
+    но отсутствие этого параметра ничего не меняет почему-то  */
+  justify-content: space-between;
+}
+
+.three {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 250px;
+}
+
+/* block four */
+.flex-container__four {
+  flex-direction: row;
+  justify-content: center;
+}
+
+.four {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.four__center {
+  display: flex;
+  width: 300px;
+  justify-content: space-around;
+  /* border: 1px solid red; */
+}
+
+/* block five */
+.flex-container__five {
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.five {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.five__right {
+  display: flex;
+  width: 300px;
+  justify-content: space-between;
+  /* border: 1px solid red; */
+}

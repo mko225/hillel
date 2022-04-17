@@ -1,0 +1,105 @@
+.wrap {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  padding: 10px 10px;
+  margin-bottom: 50px;
+  width: 600px;
+  border: 1px solid saddlebrown;
+  text-align: center;
+  color: salmon;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* boxes */
+.big {
+  width: 100px;
+  height: 100px;
+  border: 1px solid salmon;
+}
+
+.small {
+  width: 50px;
+  height: 50px;
+  border: 1px solid salmon;
+}
+
+.wide {
+  width: 200px;
+  height: 50px;
+  border: 1px solid salmon;
+}
+
+/* block one */
+.one__a {
+  float: left;
+}
+
+.one__b {
+  float: right;
+}
+
+/* block two */
+.two__a {
+  float: left;
+}
+
+.two__b {
+  float: left;
+  margin-right: 10px;
+}
+
+.last {
+  margin-right: 0;
+}
+
+.two__b__block {
+  float: right;
+}
+
+/* block three */
+.three__a {
+  float: left;
+}
+
+.three__b {
+  float: left;
+}
+
+.three__b__box {
+  float: right;
+}
+
+/* block four */
+.four__a {
+  float: left;
+}
+
+.four__b__wrap {
+  float: right;
+}
+
+.four__wrap {
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+}
+
+/* block five */
+.five__a {
+  float: left;
+}
+
+.five__b__wrap {
+  float: right;
+}
+
+.five__wrap {
+  float: right;
+  width: 400px;
+}

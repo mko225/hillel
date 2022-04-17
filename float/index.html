@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Float</title>
+  <link rel="stylesheet" href="css_float/style.css" />
+</head>
+
+<body>
+
+  <!-- знаю, что можно было не задавать отдельно названия классов блокам, которым особенности не прописываю и сделать
+  например в 4-5 блоке
+  <div class="five__b__wrap">
+    <div class="wide">2</div>
+    <div class="wide">3</div>
+  </div>
+но оставляю как class="five__b wide" тут для наглядности и того, чтобы проще было исправить что-то если понадобится
+ -->
+
+  <!-- block one -->
+  <div class="wrap clearfix">
+    <div class="one__a big">1</div>
+    <div class="one__b big">2</div>
+  </div>
+
+  <!-- block two -->
+  <div class="wrap clearfix">
+    <div class="two__a big">0</div>
+    <div class="two__b__block">
+      <div class="two__b small">1</div>
+      <div class="two__b small">2</div>
+      <div class="two__b small">3</div>
+      <div class="two__b small last">4</div>
+    </div>
+  </div>
+
+  <!-- block three -->
+  <div class="wrap clearfix">
+    <div class="three__a">
+      <div class="three__a big">1</div>
+      <div class="three__a big">2</div>
+    </div>
+    <div class="three__b__box">
+      <div class="three__b big">3</div>
+      <div class="three__b big">4</div>
+    </div>
+  </div>
+
+  <!-- block four -->
+  <div class="wrap clearfix">
+    <div class="four__wrap">
+      <div class="four__a big">1</div>
+      <div class="four__b__wrap">
+        <div class="four__b wide">2</div>
+        <div class="four__b wide">3</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- block five -->
+  <div class="wrap clearfix">
+    <div class="five__wrap">
+      <div class="five__a big">1</div>
+      <div class="five__b__wrap">
+        <div class="five__b wide">2</div>
+        <div class="five__b wide">3</div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
